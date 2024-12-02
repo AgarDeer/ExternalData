@@ -59,7 +59,7 @@ namespace ExternalData
                     cmd.ExecuteNonQuery();
                 }
             }
-            MessageBox.Show("Added new student successfully!");
+            MessageBox.Show("Added new student with ID " student.Id + ": " + student.FirstName + " successfully!");
         }
     }
 }
